@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Segoe UI'!important;
+}
+
+input{
+	/* width: 600px; */
+	width: 500px;
+	height: 40px;
+	background-color: #C6D2F8;
+	padding-left: 30px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	border-top-left-radius: 0px;
+}
+
+#container{
+	width: 1200px;
+	background: #C6D2F8;
+	height: 772px;
+	margin: auto;
+	border-radius: 20px;
+	padding-left: 50px;
+}
+
+#containerInside{
+	width: 650px;
+	height: 580px;
+	border-radius: 10px;
+	background-color: #E6F0FF;
+	padding: 50px;
+}
+
+.containerInput{
+	width: 100%;
+	height: 18%;
+}
+
+h1{
+	color: #3653B0;
+	font-size: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#titulo{
+	color: black;
+	text-align: center;
+	font-size: 36px;
+}
+
+
+p {
+	color: #fff;
+	background-color: #91A7FF;
+	/* width: 500px; */
+	display: inline-block;
+	height: 25px;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 25px;
+	border-top-right-radius: 10px;
+	font-weight: bold;
+}
+
+button {
+	background-color: #365EFF;
+	color: #fff;
+	border-radius: 8px;
+	font-size: 16px;
+	width: 292px;
+	height: 75px;
+	border: solid 2px #00218D;
+	border-bottom: solid 4px #00218D;
+	font-weight: bold;
+}
+
+button:hover{
+	cursor:pointer;
+}
+
+#idResultado {
+	font-size: 16px;
+	color: #222;
+	font-weight: bold;
+
+}

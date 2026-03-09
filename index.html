@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Financeiro</title>
+		<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+		<h3 id="titulo">Simulador Financeiro !</h3>
+		<div id="container">
+			<h1>Digite os valores</h1>
+			<div id="containerInside">
+				<div class="containerInput">
+					<p>Digite o preço do lote</p>
+					<input type="text" id="idPreco" placeholder="Digite apenas números"><br>
+				</div>
+				<div class="containerInput">
+					<p>Digite quantos lotes estão sendo transportados</p>
+					<input type="number" id="idLote" placeholder="Quantidade de lotes"><br><br>
+				</div>
+				<div class="containerInput">
+					<p>Digite quantos graus Celsius está o seu transporte</p>
+					<input type="text" id="idGraus" placeholder="Temperatura em C°"><br><br>
+				</div>
+				<div class="containerInput">
+					<p>Custo mensal do transporte</p>
+					<input type="text" id="idGraus" placeholder="Valor em reais"><br><br>
+				</div>
+				<div class="containerInput">
+					<p>Custo mensal de energia (R$)</p>
+					<input type="text" id="idGraus" placeholder="Valor em reais"><br><br>
+				</div>
+				<div class="containerInput">
+					<p>Outros custos operacionais</p>
+					<input type="text" id="idGraus" placeholder="Valor em reais"><br><br>
+				</div>
+			</div>
+				<button onclick="calcular()">Calcular</button><br>
+				<h5 id="idResultado"></h5>
+		</div>
+</body>
+    <script src="js/script.js"></script>
+</html>
+
