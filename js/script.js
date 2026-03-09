@@ -14,5 +14,5 @@ Possível perda caso saia do padrão: R$ <p> ${perda.toFixed(2)} </p>`;
 🌡️ Temperatura atual: ${graus} C° <br>
 ⚠️ <p>Não está apropriada para o refrigeramento</p> <br>
 Possível perda caso saia do padrão: R$<p>${perda.toFixed(2)} </p>`;
-	}
+	} //comentário gamer!!!
 }
